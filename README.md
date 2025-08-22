@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python" />
   <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit" />
   <img src="https://img.shields.io/badge/Status-Completed-success" />
-  <img src="https://img.shields.io/github/license/yourusername/ResponseIQ-Chatbot" />
+  <img src="https://img.shields.io/github/license/Mahaboobunnisa123/ResponseIQ-Chatbot" />
 </p>
 
 <p align="center">
@@ -38,16 +38,14 @@ ResponseIQ-Chatbot/
 ---
 
 ## 🚀 Getting Started
-
 ### 1️⃣ Clone Repo
-```bash
 git clone https://github.com/yourusername/ResponseIQ-Chatbot.git
 cd ResponseIQ-Chatbot
 2️⃣ Install Dependencies
 
 pip install -r requirements.txt
 3️⃣ Run the App
-t
+
 streamlit run app.py
 📜 License
 This project is licensed under the MIT License. See LICENSE for details.

@@ -1,7 +1,7 @@
 <h1 align="center">🤖 ResponseIQ Chatbot</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9-blue?logo=python" />
+  <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python" />
   <img src="https://img.shields.io/badge/Streamlit-App-red?logo=streamlit" />
   <img src="https://img.shields.io/badge/Status-Completed-success" />
   <img src="https://img.shields.io/github/license/yourusername/ResponseIQ-Chatbot" />

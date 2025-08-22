@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Streamlit
+.streamlit/
+
+# Data
+data/*
+!data/README.md
+
+# Results
+*.png
+* mp4

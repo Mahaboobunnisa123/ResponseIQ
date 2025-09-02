@@ -1,0 +1,167 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up", "Good morning", "Good evening"],
+      "responses": ["Hi there!", "Hello!", "Hey!", "I'm fine, thank you. How about you?", "Nothing much, just here to help you."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care", "Catch you later"],
+      "responses": ["Goodbye!", "See you later!", "Take care!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it", "Much obliged"],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!", "Anytime!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["What can you do", "Who are you", "What are you", "What is your purpose", "Tell me about yourself"],
+      "responses": ["I am RespondIQ, your AI assistant chatbot.", "My purpose is to assist you with useful information.", "I can answer questions, give advice, and provide guidance."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "I need help", "Can you help me", "What should I do", "Assist me"],
+      "responses": ["Sure, what do you need help with?", "I'm here to help. What's the problem?", "How can I assist you today?"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you", "What's your age", "When were you created"],
+      "responses": ["I don't have an age, I'm a chatbot.", "I was created in the digital world.", "Age is just a number for me!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like", "How's the weather today", "Is it raining"],
+      "responses": ["I'm sorry, I cannot provide real-time weather information.", "You can check the weather on a weather app or website like Weather.com."]
+    },
+    {
+      "tag": "budget",
+      "patterns": ["How can I make a budget", "What's a good budgeting strategy", "How do I create a budget"],
+      "responses": [
+        "Start by tracking your income and expenses, then allocate money towards essentials, savings, and extras.",
+        "A good strategy is the 50/30/20 rule: 50% essentials, 30% wants, 20% savings/debt.",
+        "Set financial goals, track your spending, and create a plan that balances needs and wants."
+      ]
+    },
+    {
+      "tag": "credit_score",
+      "patterns": ["What is a credit score", "How do I check my credit score", "How can I improve my credit score"],
+      "responses": [
+        "A credit score is a number that shows your creditworthiness. Higher is better!",
+        "You can check your score for free on sites like Credit Karma.",
+        "To improve your score: pay bills on time, reduce debts, and avoid applying for too much credit at once."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it", "Tell me the time", "Do you know the time"],
+      "responses": ["I can't check real-time, but your device clock shows the exact time.", "Please check your system clock for the current time."]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What day is it", "Tell me today's date", "What's the date today"],
+      "responses": ["I can't fetch real-time dates, but you can check your calendar or device for today’s date."]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know a joke"],
+      "responses": ["Why don’t skeletons fight each other? They don’t have the guts!", "I told my computer I needed a break, and it froze!", "Why was the math book sad? Because it had too many problems."]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "Give me motivation", "Inspire me", "Say something motivational"],
+      "responses": ["Believe in yourself, you are capable of amazing things!", "Every expert was once a beginner. Keep going!", "Your hard work today will pay off tomorrow."]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": ["How can I study better", "Give me study tips", "How to concentrate on studies"],
+      "responses": [
+        "Break your study time into small sessions with short breaks (Pomodoro technique).",
+        "Stay away from distractions and keep your phone aside while studying.",
+        "Make notes, revise regularly, and practice active recall."
+      ]
+    },
+    {
+      "tag": "career_advice",
+      "patterns": ["Can you give me career advice", "How do I choose a career", "What's the best career path"],
+      "responses": [
+        "Think about what excites you and what skills you have.",
+        "Research career paths, talk to professionals, and explore internships.",
+        "Choose something that balances passion, skills, and opportunities."
+      ]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["What's new in technology", "Tell me about AI", "Explain machine learning"],
+      "responses": [
+        "Artificial Intelligence (AI) is a field that enables machines to think and learn.",
+        "Machine Learning is a subset of AI where systems improve automatically from data.",
+        "Latest tech trends include AI, blockchain, 5G, and quantum computing."
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": ["Give me health tips", "How can I stay healthy", "Tips for fitness"],
+      "responses": [
+        "Drink enough water, sleep well, and eat balanced meals.",
+        "Exercise regularly, even if it’s just a short walk every day.",
+        "Take breaks and manage stress with meditation or hobbies."
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": ["Suggest me travel places", "Where should I travel", "Best places to visit"],
+      "responses": [
+        "You can explore beautiful destinations like Paris, Bali, New York, or the Swiss Alps.",
+        "If you love nature, try visiting national parks and beaches.",
+        "For culture, explore cities with rich history like Rome, Kyoto, or Istanbul."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is Machine Learning",
+        "Explain Machine Learning",
+        "Meaning of Machine Learning",
+        "Tell me about Machine Learning",
+        "Define Machine Learning"
+      ],
+      "responses": [
+        "Machine Learning is a branch of Artificial Intelligence where systems learn from data to make predictions or decisions without being explicitly programmed.",
+        "In Machine Learning, algorithms improve their performance automatically through experience and data.",
+        "It’s about teaching computers to learn patterns from data instead of giving step-by-step instructions."
+      ]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": [
+        "What is AI",
+        "Explain Artificial Intelligence",
+        "Tell me about AI",
+        "Define AI",
+        "Meaning of Artificial Intelligence"
+      ],
+      "responses": [
+        "Artificial Intelligence is the simulation of human intelligence processes by machines, especially computer systems.",
+        "AI refers to systems that can perform tasks usually requiring human intelligence, such as reasoning, learning, and problem-solving.",
+        "It’s about making machines smart enough to think and act like humans."
+      ]
+    },
+    {
+      "tag": "smalltalk",
+      "patterns": [
+        "How are you",
+        "What’s going on",
+        "What’s up",
+        "How’s it going",
+        "Are you fine"
+      ],
+      "responses": [
+        "I’m just a bot, but I’m doing great! How about you?",
+        "All good here! What about you?",
+        "I’m always ready to help you!"
+      ]
+    }
+  ]
+}

@@ -14,6 +14,3 @@ venv/
 data/*
 !data/README.md
 
-# Results
-*.png
-* mp4

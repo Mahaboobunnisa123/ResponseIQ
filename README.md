@@ -23,17 +23,18 @@
 
 ## 📂 Project Structure
 ResponseIQ-Chatbot/
-│── README.md
-│── requirements.txt
-│── PROJECT_SUMMARY.md
-│── RESULTS.md
-│── .gitignore
-│── LICENSE
-│── data/
-│ └── README.md
-│── Results/
-│ ├── streamlit_ui.mp4
-│ └── chatbot_flow.png
+├── Results/
+│   └── chatbot.mp4
+├── data/
+│   └── intents.json
+├── src/
+│   ├── app.py
+│   └── chatbot.py
+├── .gitignore
+├── PROJECT_SUMMARY.md
+├── README.md
+├── requirements.txt
+└── RESULTS.md
 
 ---
 
@@ -54,6 +55,3 @@ This repository is structured to showcase my work on the ResponseIQ Chatbot proj
 Project summary
 Requirements
 Results 
-
-⚠️ Source code is not shared in this repository due to academic/research confidentiality and intellectual property concerns.
-However, the project has been fully implemented and tested.
